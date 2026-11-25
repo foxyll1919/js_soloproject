@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/CursedTimerUlil-Aznm.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Prevents invisible text while the font loads */
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+.butt {    
+    background-color: #1B244A;
+    font-family: MyCustomFont;
+    text-align: center;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.score {
+    font-family: MyCustomFont;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+
+
+
+
+
